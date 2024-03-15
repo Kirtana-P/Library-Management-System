@@ -32,6 +32,7 @@ git clone https://github.com/Kirtana-P/Library-Management-System.git
 ### Navigate to project directory:
 Use the cd command to change your current directory to the project directory.
 ```bash
+cd Library-Management-System
 cd Code
 ```
 ### Run the Application:
