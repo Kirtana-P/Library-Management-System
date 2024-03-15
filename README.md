@@ -33,7 +33,8 @@ Navigate to project directory:
 cd Library-Management-System
 ```
 Run the Application:
-```python main.py
+```bash
+python main.py
 ```
 Interact with the System:
 Follow the on-screen instructions to use the Library Management System.
