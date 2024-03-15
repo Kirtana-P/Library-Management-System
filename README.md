@@ -21,13 +21,18 @@ This is a software application designed to manage the operations of a library. I
 - List Checkins: Displays a list of all book checkins.
 - Search Checkin: Allows searching for a checkin transaction by user ID, book ISBN, or checkin date.
 
-## Installation
+### Installation
+Ensure you have Python installed on your system. You can download Python from the official website and follow the installation instructions.
 
-### To run this application, you need to have Python installed. Clone this repository.
-
-### Navigate to project directory:
+### Clone the repository
+Use Git to clone the repository to your local machine. If you don't have Git installed, you can download it from the official website.
 ```bash
-cd Library-Management-System
+git clone https://github.com/Kirtana-P/Library-Management-System.git
+```
+### Navigate to project directory:
+Use the cd command to change your current directory to the project directory.
+```bash
+cd Code
 ```
 ### Run the Application:
 ```bash
