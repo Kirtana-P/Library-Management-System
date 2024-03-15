@@ -49,13 +49,13 @@ To run this application, you need to have Python installed. Clone this repositor
 
 ```bash
 pip install -r requirements.txt
-
+```
 Navigate to project directory:
 ```bash
 cd Library-Management-System
-
+```
 Run the Application:
 ```python main.py
-
+```
 Interact with the System:
 Follow the on-screen instructions to use the Library Management System.
