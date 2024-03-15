@@ -23,19 +23,19 @@ This is a software application designed to manage the operations of a library. I
 
 ## Installation
 
-To run this application, you need to have Python installed. Clone this repository and install the required dependencies using pip:
+### To run this application, you need to have Python installed. Clone this repository and install the required dependencies using pip:
 
 ```bash
 pip install -r requirements.txt
 ```
-Navigate to project directory:
+### Navigate to project directory:
 ```bash
 cd Library-Management-System
 ```
-Run the Application:
+### Run the Application:
 ```bash
 python main.py
 ```
-Interact with the System:
+### Interact with the System:
 
 Follow the on-screen instructions to use the Library Management System.
