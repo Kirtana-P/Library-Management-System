@@ -1,6 +1,16 @@
-# user.py
-from models import User
+# User.py
 import storage
+
+"""
+Class User represents a user of the library.
+Attributes:
+- name (str): The name of the user.
+- user_id (int): The unique identifier of the user.
+"""
+class User:
+    def __init__(self, name, user_id):
+        self.name = name
+        self.user_id = user_id
 
 """
 Manages the user operations in the library.

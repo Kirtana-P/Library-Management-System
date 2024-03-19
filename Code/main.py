@@ -1,6 +1,6 @@
-from book import BookManager
-from user import UserManager
-from check import CheckManager
+from Book import BookManager
+from User import UserManager
+from Check import CheckManager
 
 books_file = "data/books.json"
 users_file = "data/users.json"

@@ -1,6 +1,21 @@
+#Check.py
 import json
 from datetime import datetime
-from book import BookManager
+from Book import BookManager
+
+
+"""
+Class Checkout represents a book checkout transaction.
+Attributes:
+- user_id (int): The user ID of the user checking out the book.
+- isbn (str): The ISBN of the book being checked out.
+- checkout_date (datetime): The date when the book was checked out.
+"""
+class Check:
+    def __init__(self, user_id, isbn, checkout_date):
+        self.user_id = user_id
+        self.isbn = isbn
+        self.checkout_date = checkout_date
 
 class CheckManager:
     def __init__(self, filename):

@@ -1,6 +1,21 @@
-# book.py
-from models import Book
+# Book.py
 import storage
+
+"""
+Class Book represents a book in the library.
+Attributes:
+- title (str): The title of the book.
+- author (str): The author of the book.
+- isbn (str): The ISBN (International Standard Book Number) of the book.
+- availability (bool): Indicates if the book is available for checkout.
+"""
+class Book:
+    def __init__(self, title, author, isbn, availability=True, **kwargs):
+        self.title = title
+        self.author = author
+        self.isbn = isbn
+        self.availability = availability
+
 
 """
 Manages the book operations in the library.
